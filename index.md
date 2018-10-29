@@ -38,4 +38,4 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 # Week 2 (Oct 17)
 ## Assignment 1 (Oct 16, 2018)
 + My R examples and RStudio material. 
-[Click here](RMarkdown-Homework-Assignment1.html).
+[Click here](RMarkdown-Homework-Assignment2.html).
