@@ -3,7 +3,7 @@ title: "Assignment-2"
 author: "Leyla Yiğit"
 date: "29 Ekim 2018"
 output: html_document
-
+---
 
 ## Assignment: Assignment 1 - R Examples
 Leyla Yigit
