@@ -1,4 +1,5 @@
 #The Progress Journal
+
 #Week 1 (Oct 5)
 
 # Week 2 (Oct 17)
