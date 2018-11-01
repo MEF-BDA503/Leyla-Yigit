@@ -1,6 +1,6 @@
 # The Progress Journal
 
-**This Progress Journal is developerd for BDA503 Data Analytics Class
+
 ## WEEK 1 (Oct 3, 2018)
 ### Welcome to GitHub Pages
 [Website on GitHub](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/edit/master/index.md) to maintain and preview the content for the website in Markdown files.
@@ -13,4 +13,7 @@
 **Assignment 1 (Oct 16, 2018)**
  
 [Click here](RMarkdown-Homework-Assignment2.html) My R Experiences and Importance of R.
+
+
+**This Progress Journal is developed for BDA503 Data Analytics Class
 
