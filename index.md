@@ -15,5 +15,5 @@
 [Click here](RMarkdown-Homework-Assignment2.html) My R Experiences and Importance of R.
 
 
-***This Progress Journal is developed for BDA503 Data Analytics Class
+
 
