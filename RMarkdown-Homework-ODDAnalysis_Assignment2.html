@@ -424,9 +424,7 @@ saveRDS(car_data_oct_16, file = &quot;car_data_oct_16.rds&quot;)</code></pre>
 ## 12 KIA                    1447
 ## 13 MITSUBISHI              286
 ## 14 SSANGYONG                94</code></pre>
-</div>
-<div id="analysis-resultvolkswagen-has-the-highest-number-of-sales-on-the-other-hand-ssangyong-has-the-lowest-sales-number" class="section level2">
-<h2>Analysis Result:VOLKSWAGEN has the highest number of sales; on the other hand SSANGYONG has the lowest sales number:</h2>
+<p><strong>Analysis Result: VOLKSWAGEN has the highest number of sales; on the other hand SSANGYONG has the lowest sales number</strong></p>
 <p>#Calculate the mean of sales numbers</p>
 <pre class="r"><code>car_data_oct_16 %&gt;%
   summarise(sales_num_mean=mean(toplam_toplam),dom_sales_num_maen=mean(toplam_yerli),imp_sales_num_mean=mean(toplam_ithal),com_sales_num_mean=mean(ticari_ithal),oto_sales_num_mean=mean(oto_ithal))</code></pre>
@@ -435,9 +433,8 @@ saveRDS(car_data_oct_16, file = &quot;car_data_oct_16.rds&quot;)</code></pre>
 ##            &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
 ## 1          1765.             530.            1235.             203.
 ## # ... with 1 more variable: oto_sales_num_mean &lt;dbl&gt;</code></pre>
+<p><strong>Analysis Result: As a result,in 2016,10 customers prefer import cars more than domestic ones.From this import cars, sales of indiviual cars is higher than commercial car sales</strong></p>
 </div>
-<div id="analysis-result-as-a-resultin-201610-customers-prefer-import-cars-more-than-domestic-ones.from-this-import-cars-sales-of-indiviual-cars-is-higher-than-commercial-car-sales." class="section level1">
-<h1>Analysis Result: As a result,in 2016,10 customers prefer import cars more than domestic ones.From this import cars, sales of indiviual cars is higher than commercial car sales.</h1>
 <div id="get-the-volkswagen-sales-numbers-compare-commercial-and-car-types." class="section level2">
 <h2>–2—Get the VOLKSWAGEN sales numbers, compare commercial and car types.</h2>
 <pre class="r"><code>car_data_oct_16 %&gt;% 
@@ -448,10 +445,8 @@ saveRDS(car_data_oct_16, file = &quot;car_data_oct_16.rds&quot;)</code></pre>
 ##   MARKA      toplam_toplam toplam_yerli toplam_ithal
 ##   &lt;chr&gt;              &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;
 ## 1 VOLKSWAGEN         12229            0        12229</code></pre>
+<p><strong>Analysis Result:VOLKSWAGEN is an import car and has 12229 number of sales 2016,10</strong></p>
 </div>
-</div>
-<div id="analysis-resultvolkswagen-is-an-import-car-and-has-12229-number-of-sales-201610" class="section level1">
-<h1>Analysis Result:VOLKSWAGEN is an import car and has 12229 number of sales 2016,10</h1>
 <div id="get-the-car-names-sales-number-is-equal-to-0-and-order-car-name-asc" class="section level2">
 <h2>–3—Get the car names sales number is equal to 0 and order car name asc</h2>
 <pre class="r"><code>car_data_oct_16 %&gt;%
@@ -468,7 +463,7 @@ saveRDS(car_data_oct_16, file = &quot;car_data_oct_16.rds&quot;)</code></pre>
 ## 5 OTOKAR                  0
 ## 6 PROTON                  0
 ## 7 TATA                    0</code></pre>
-<p>#Analysis Result:There are 7 car brand have 0 number of sales in 2016,10</p>
+<p><strong>Analysis Result:There are 7 car brand have 0 number of sales in 2016,10</strong></p>
 </div>
 <div id="get-the-car-names-and-numbers-sales-number-more-than-2000-and-how-many-of-this-number-domestic-or-import-and-order-sales-number-desc." class="section level2">
 <h2>–4—Get the car names and numbers sales number more than 2000 and how many of this number domestic or import and order sales number desc.</h2>
@@ -512,8 +507,7 @@ car_data_oct_16_comp</code></pre>
 ##   dip_toplam ticari_toplam oto_toplam
 ##        &lt;dbl&gt;         &lt;dbl&gt;      &lt;dbl&gt;
 ## 1      82963         19254      63709</code></pre>
-<p>#Analysis Result:Indıvidual car type is more preffred by customers than commercial ones.</p>
-</div>
+<p><strong>Analysis Result:Indıvidual car type is more preffred by customers than commercial ones.</strong></p>
 </div>
 
 

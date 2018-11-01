@@ -80,14 +80,14 @@ car_data_oct_16 %>%
   arrange(desc(toplam_toplam))
 ```
 
-## Analysis Result:VOLKSWAGEN has the highest number of sales; on the other hand SSANGYONG has the lowest sales number: 
+**Analysis Result: VOLKSWAGEN has the highest number of sales; on the other hand SSANGYONG has the lowest sales number**
 
 #Calculate the mean of sales numbers 
 ```{r car_data_oct_16}
 car_data_oct_16 %>%
   summarise(sales_num_mean=mean(toplam_toplam),dom_sales_num_maen=mean(toplam_yerli),imp_sales_num_mean=mean(toplam_ithal),com_sales_num_mean=mean(ticari_ithal),oto_sales_num_mean=mean(oto_ithal))
 ```
-# Analysis Result: As a result,in 2016,10 customers prefer import cars more than domestic ones.From this import cars, sales of indiviual cars is higher than commercial car sales.
+**Analysis Result: As a result,in 2016,10 customers prefer import cars more than domestic ones.From this import cars, sales of indiviual cars is higher than commercial car sales**
 
 ## --2---Get the VOLKSWAGEN sales numbers, compare commercial and car types. 
 ```{r VOLKSWAGEN}
@@ -97,7 +97,7 @@ car_data_oct_16 %>%
   arrange (desc(sum(toplam_toplam)))
 ```
 
-# Analysis Result:VOLKSWAGEN is an import car and has 12229 number of sales 2016,10
+**Analysis Result:VOLKSWAGEN is an import car and has 12229 number of sales 2016,10**
 
 
 ## --3---Get the car names sales number is equal to 0 and order car name asc
@@ -108,7 +108,7 @@ car_data_oct_16 %>%
   arrange( MARKA)
 ```
 
-#Analysis Result:There are 7 car brand have 0 number of sales in 2016,10
+**Analysis Result:There are 7 car brand have 0 number of sales in 2016,10**
 
 ## --4---Get the car names and numbers sales number more than 2000 and how many of this number domestic or import and order sales number desc.
 ```{r group_by}
@@ -132,7 +132,7 @@ car_data_oct_16_comp
 
 ```
 
-#Analysis Result:Indıvidual car type is more preffred by customers than commercial ones.
+**Analysis Result:Indıvidual car type is more preffred by customers than commercial ones.**
 
 
 
