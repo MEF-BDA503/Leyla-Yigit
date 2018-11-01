@@ -1,28 +1,23 @@
 ---
-title: "RMarkdown-Homework-ODD_Analysis_Assignment2"
+title: "RMarkdown-Homework-ODDAnalysis_Assignment2"
 author: "Leyla Yigit"
 date: "31 Ekim 2018"
 output: html_document
 ---
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r }
 
 # Load the package to the session
 library(tidyverse)
 library(readxl)
-library(plyr)
-#install.packages("magrittr") library(magrittr)
-#dd <- "plyr"
-#install.packages(dd)
 
 ```
 
 
 
 
-```{r cars}
+```{r DOWNOAD RAW DATA}
 #Download Raw Data
 # Create a temporary file
 tmp<-tempfile(fileext=".xlsx")
@@ -46,14 +41,14 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ## Let's see our raw data
 
-```{r pressure}
+```{r RAW DATA CHECK}
 head(raw_data)
 ```
 
 
 ## Make Data Civilized
 
-```{r pressure}
+```{r MAKE CIVILIZED DATA}
 #In order to make the data standardized and workable we need to define column names and remove NA values for this example. 
 #Please use the same column names in your examples also.
 # Use the same column names in your data.
@@ -67,7 +62,7 @@ print(car_data_oct_16,width=Inf)
 
 ## Save Your Civilized Data
 
-```{r pressure}
+```{r CIVILIZED DATA SAVE}
 #One of the best methods is to save your data to an RDS or RData file. 
 #The difference is RDS can hold only one object but RData can hold many. Since we have only one data frame here we will go with RDS.
 # Save an object to a file
@@ -75,10 +70,10 @@ saveRDS(car_data_oct_16, file = "car_data_oct_16.rds")
 ```
 
 
-##ANALYSIS
+##                                                                                       ANALYSIS
 ## --1--- a list of total sales of brands with both automobile and commercial vehicle sales ordered in decreasing total sales.
 
-```{r pressure}
+```{r ANALYSIS}
 car_data_oct_16 %>% 
   filter(oto_toplam > 0 & ticari_toplam > 0) %>%
   select(MARKA,toplam_toplam) %>%
@@ -87,18 +82,57 @@ car_data_oct_16 %>%
 
 ## Analysis Result:VOLKSWAGEN has the highest number of sales; on the other hand SSANGYONG has the lowest sales number: 
 
+#Calculate the mean of sales numbers 
+```{r car_data_oct_16}
+car_data_oct_16 %>%
+  summarise(sales_num_mean=mean(toplam_toplam),dom_sales_num_maen=mean(toplam_yerli),imp_sales_num_mean=mean(toplam_ithal),com_sales_num_mean=mean(ticari_ithal),oto_sales_num_mean=mean(oto_ithal))
+```
+# Analysis Result: As a result,in 2016,10 customers prefer import cars more than domestic ones.From this import cars, sales of indiviual cars is higher than commercial car sales.
+
+## --2---Get the VOLKSWAGEN sales numbers, compare commercial and car types. 
+```{r VOLKSWAGEN}
+car_data_oct_16 %>% 
+  filter(MARKA=='VOLKSWAGEN' ) %>% 
+  select(MARKA,(toplam_toplam),(toplam_yerli)  ,(toplam_ithal))%>%
+  arrange (desc(sum(toplam_toplam)))
+```
+
+# Analysis Result:VOLKSWAGEN is an import car and has 12229 number of sales 2016,10
 
 
+## --3---Get the car names sales number is equal to 0 and order car name asc
+```{r arrange}
+car_data_oct_16 %>%
+  filter(toplam_toplam==0) %>%
+  select(MARKA,toplam_toplam) %>%
+  arrange( MARKA)
+```
 
+#Analysis Result:There are 7 car brand have 0 number of sales in 2016,10
 
+## --4---Get the car names and numbers sales number more than 2000 and how many of this number domestic or import and order sales number desc.
+```{r group_by}
+car_data_oct_16 %>%
+  group_by(MARKA) %>%
+  filter(sum(toplam_toplam)>2000) %>%
+  select(MARKA,toplam_ithal,toplam_yerli,toplam_toplam) %>%
+  arrange(desc(toplam_toplam))
+```
 
+## --5---Compare cars and commercial cars, which brand has the highest sales. In that highest group, do customers prefer domestic or import
+```{r car_data_oct_16_comp }
+car_data_oct_16_comp <-
+  car_data_oct_16 %>%
+ # group_by(MARKA)%>%
+  #aggregate( by=list(toplam_yerli,toplam_ithal,toplam_toplam), FUN=sum)
+  summarise(dip_toplam=sum(toplam_toplam),ticari_toplam=sum(ticari_toplam),oto_toplam=sum(oto_toplam))
+  #mutate(dip_toplam = sum(toplam_toplam))
 
+car_data_oct_16_comp
 
+```
 
-
-
-
-
+#Analysis Result:Indıvidual car type is more preffred by customers than commercial ones.
 
 
 
