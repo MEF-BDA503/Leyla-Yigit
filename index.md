@@ -1,6 +1,6 @@
 # The Progress Journal
 
-# The Progress Journal for BDA503 Data Analytics
+**This Progress Journal is developerd for BDA503 Data Analytics Class
 ## WEEK 1 (Oct 3, 2018)
 ### Welcome to GitHub Pages
 [WEbsite on GitHub](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/edit/master/index.md) to maintain and preview the content for the website in Markdown files.
