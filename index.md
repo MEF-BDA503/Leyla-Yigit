@@ -12,7 +12,7 @@
 ## WEEK 2 (Oct 3, 2018)
 **Assignment 1 (Oct 16, 2018)**
  
-[Click here](RMarkdown-Homework-RExmamples_Assignment1.html) My R Experiences and Importance of R.
+[Click here](RMarkdown-Homework-Rexamples_Assignment1.html) My R Experiences and Importance of R.
 
 
 
