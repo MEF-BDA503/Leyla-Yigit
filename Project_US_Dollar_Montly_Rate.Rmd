@@ -53,20 +53,6 @@ print(US_Dollar_Montly_Rate,width=Inf)
 
 
 ```{r pressure, echo=FALSE}
-saveRDS(car_data_oct_16, file = "car_data_oct_16.rds")
+saveRDS(US_Dollar_Montly_Rate, file = "US_Dollar_Montly_Rate")
 ```
 
-
-
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-raw_data <- raw_data %>%
-```
-
-
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-raw_data <- raw_data %>%
-```
