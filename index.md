@@ -16,19 +16,19 @@ Statistical models were introduced and Principle Components Analysis (PCA), Mult
 
 ***
 ## WEEK 4 (Nov 14, 2018)
-**Assignment 4 ODD Analysis 3**
+**Assignment 4: EGM Data Analysis**
 
 EGM data analysis has been done. 
 
 ***
 ## WEEK 3 (Oct 31, 2018)
-**Assignment 3 ODD Analysis 2**
+**Assignment 3: ODD Analysis 2**
 And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been done. In order to aggregate monthly ODD datas, we merged our code to main file.
 
 
 ***
 ## Week2 (Oct 17, 2018)
-**Assignment 2 ODD Analysis 1**
+**Assignment 2: ODD Analysis 1**
 This development consists of library(tidyverse),library(readxl) functions. By using these functions, ODD (Otomotiv Distribütörleri Derneği) data of 2016,10 was analyzed.
 
 [Click here](RMarkdown-Homework-ODDAnalysis_Assignment2.html) for DATA ANALYSIS
@@ -39,12 +39,14 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 
 ***
 ## WEEK 1 (Oct 3, 2018)
-**Assignment 1 R Experiences**
+**Assignment 1: R Experiences**
 [Click here](RMarkdown-Homework-Rexamples_Assignment1.html) My R Experiences and Importance of R.
 
 ***
 ## Week0
-### Assignment 0 Welcome to GitHub Pages
+### Assignment 0: Welcome to GitHub Pages
 [Website on GitHub](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/edit/master/index.md) to maintain and preview the content for the website in Markdown files.
 
 [Codes on Github](https://github.com/MEF-BDA503/pj18-Leyla.Yigit)is the R class files and codes
+
+***
