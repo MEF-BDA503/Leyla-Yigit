@@ -61,5 +61,4 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 [Website on GitHub](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/edit/master/index.md) to maintain and preview the content for the website in Markdown files.
 
 
-
 ***
