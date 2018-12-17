@@ -17,9 +17,10 @@ Statistical models were introduced and Principle Components Analysis (PCA), Mult
 ***
 ## WEEK 4 (Nov 14, 2018)
 **Assignment 4 (Nov 14, 2018)**
+
 EGM data analysis has been done. And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been done.
 
-
+***
 ## WEEK 3 (Oct 31, 2018)
 **Assignment 3 (Oct 31, 2018)**
 
