@@ -1,20 +1,38 @@
 
 # The Progress Journal
+##### [Course Homepage](https://mef-bda503.github.io/)	
 
+***
+## Week7 (Dec 26, 2018)
 
-## WEEK 1 (Oct 3, 2018)
-### Welcome to GitHub Pages
-[Website on GitHub](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/edit/master/index.md) to maintain and preview the content for the website in Markdown files.
+Term Project Presentation. [Project Progress Journal]https://github.com/MEF-BDA503/gpj18-r_coders)
 
-[Codes on Github](https://github.com/MEF-BDA503/pj18-Leyla.Yigit)is the R class files and codes
+***
+## Week6 (Dec 12, 2018)
 
-## WEEK 2 (Oct 3, 2018)
-**Assignment 1 (Oct 16, 2018)**
- 
-[Click here](RMarkdown-Homework-Rexamples_Assignment1.html) My R Experiences and Importance of R.
+We continued with Statistical models; Linear Regression, Logistic Regression, KNN, Classification and Regression Trees (CART)
 
+***
+## Week5 (Nov 28, 2018)
+
+Statistical models were introduced and Principle Components Analysis (PCA), Multidimensional Scaling (MDS), K-Means, Hierarchical Clustering were reviewed. 
+
+***
+## WEEK 4 (Nov 14, 2018)
+**Assignment 4: EGM Data Analysis**
+
+EGM data analysis has been done. 
+
+***
 ## WEEK 3 (Oct 31, 2018)
-**Assignment 3 (Oct 31, 2018)**
+**Assignment 3: ODD Analysis 2**
+
+And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been done. In order to aggregate monthly ODD datas, we merged our code to main file.
+
+
+***
+## Week2 (Oct 17, 2018)
+**Assignment 2: ODD Analysis 1**
 
 This development consists of library(tidyverse),library(readxl) functions. By using these functions, ODD (Otomotiv Distribütörleri Derneği) data of 2016,10 was analyzed.
 
@@ -23,3 +41,19 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 [Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/FILES/odd_retail_sales_2016_10.xlsx) for EXCEL File
 
 [Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/FILES/car_data_oct_16.rds) for RDS File
+
+***
+## WEEK 1 (Oct 3, 2018)
+**Assignment 1: R Experiences**
+
+[Click here](RMarkdown-Homework-Rexamples_Assignment1.html) My R Experiences and Importance of R.
+
+***
+## Week0
+### Assignment 0: Welcome to GitHub Pages
+
+[Website on GitHub](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/edit/master/index.md) to maintain and preview the content for the website in Markdown files.
+
+[Codes on Github](https://github.com/MEF-BDA503/pj18-Leyla.Yigit)is the R class files and codes
+
+***
