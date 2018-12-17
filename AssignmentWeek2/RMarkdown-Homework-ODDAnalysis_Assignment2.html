@@ -315,12 +315,12 @@ $(document).ready(function () {
 
 <pre class="r"><code># Load the package to the session
 library(tidyverse)</code></pre>
-<pre><code>## -- Attaching packages ----------------------------------------------------------------------------------------------------------------------------- tidyverse 1.2.1 --</code></pre>
+<pre><code>## -- Attaching packages --------------------------------------------------------------------------------------------------------------------------------------------------- tidyverse 1.2.1 --</code></pre>
 <pre><code>## v ggplot2 3.0.0     v purrr   0.2.5
-## v tibble  1.4.2     v dplyr   0.7.6
+## v tibble  1.4.2     v dplyr   0.7.8
 ## v tidyr   0.8.1     v stringr 1.3.1
 ## v readr   1.1.1     v forcats 0.3.0</code></pre>
-<pre><code>## -- Conflicts -------------------------------------------------------------------------------------------------------------------------------- tidyverse_conflicts() --
+<pre><code>## -- Conflicts ------------------------------------------------------------------------------------------------------------------------------------------------------ tidyverse_conflicts() --
 ## x dplyr::filter() masks stats::filter()
 ## x dplyr::lag()    masks stats::lag()</code></pre>
 <pre class="r"><code>library(readxl)</code></pre>
@@ -328,7 +328,7 @@ library(tidyverse)</code></pre>
 # Create a temporary file
 tmp&lt;-tempfile(fileext=&quot;.xlsx&quot;)
 # Download file from repository to the temp file
-download.file(&quot;https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/FILES/odd_retail_sales_2016_10.xlsx?raw=true&quot;,mode=&quot;wb&quot;,destfile=tmp)
+download.file(&quot;https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek2/odd_retail_sales_2016_10.xlsx?raw=true&quot;,mode=&quot;wb&quot;,destfile=tmp)
 # Read that excel file using readxl package&#39;s read_excel function. You might need to adjust the parameters (skip, col_names) according to your raw file&#39;s format.
 raw_data&lt;-readxl::read_excel(tmp,skip=7,col_names=FALSE)
 # Remove the temp file
