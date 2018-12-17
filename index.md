@@ -29,7 +29,7 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 ***
 ## WEEK 3 (Oct 31, 2018)
 **Assignment 3 (Oct 31, 2018)**
-This week we reviewed ggplot & lubridate packages and as ODD homework part 2, in order to aggregate monthly ODD datas, we merged our code to main file. [Assignment3](AssignmentWeek3/AssignmentWeek3.Rmd)
+This week we reviewed ggplot & lubridate packages and as ODD homework part 2, in order to aggregate monthly ODD data as a whole, we merged our code to main file. [Assignment3](AssignmentWeek3/AssignmentWeek3.Rmd)
 
 ***
 ## Week2 (Oct 17, 2018)
