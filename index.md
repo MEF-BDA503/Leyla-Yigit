@@ -4,14 +4,17 @@
 
 ***
 ## Week7 (Dec 26, 2018)
+
 Term Project Presentation. [Project Progress Journal]https://github.com/MEF-BDA503/gpj18-r_coders)
 
 ***
 ## Week6 (Dec 12, 2018)
+
 We continued with Statistical models; Linear Regression, Logistic Regression, KNN, Classification and Regression Trees (CART)
 
 ***
 ## Week5 (Nov 28, 2018)
+
 Statistical models were introduced and Principle Components Analysis (PCA), Multidimensional Scaling (MDS), K-Means, Hierarchical Clustering were reviewed. 
 
 ***
@@ -23,12 +26,14 @@ EGM data analysis has been done.
 ***
 ## WEEK 3 (Oct 31, 2018)
 **Assignment 3: ODD Analysis 2**
+
 And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been done. In order to aggregate monthly ODD datas, we merged our code to main file.
 
 
 ***
 ## Week2 (Oct 17, 2018)
 **Assignment 2: ODD Analysis 1**
+
 This development consists of library(tidyverse),library(readxl) functions. By using these functions, ODD (Otomotiv Distribütörleri Derneği) data of 2016,10 was analyzed.
 
 [Click here](RMarkdown-Homework-ODDAnalysis_Assignment2.html) for DATA ANALYSIS
@@ -40,11 +45,13 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 ***
 ## WEEK 1 (Oct 3, 2018)
 **Assignment 1: R Experiences**
+
 [Click here](RMarkdown-Homework-Rexamples_Assignment1.html) My R Experiences and Importance of R.
 
 ***
 ## Week0
 ### Assignment 0: Welcome to GitHub Pages
+
 [Website on GitHub](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/edit/master/index.md) to maintain and preview the content for the website in Markdown files.
 
 [Codes on Github](https://github.com/MEF-BDA503/pj18-Leyla.Yigit)is the R class files and codes
