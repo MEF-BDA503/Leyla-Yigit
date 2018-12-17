@@ -38,7 +38,7 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 
 [Click here](RMarkdown-Homework-ODDAnalysis_Assignment2.html) for DATA ANALYSIS
 
-[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/tree/master/AssignmentWeek2) for EXCEL File
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek2/odd_retail_sales_2016_10.xlsx) for EXCEL File
 
 [Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek2/car_data_oct_16.rds) for Rds File
 
