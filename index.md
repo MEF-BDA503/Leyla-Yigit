@@ -27,7 +27,7 @@ EGM data analysis has been done.
 ## WEEK 3 (Oct 31, 2018)
 **Assignment 3: ODD Analysis 2**
 
-And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been done. In order to aggregate monthly ODD datas, we merged our code to main file.
+And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been done. In order to aggregate monthly ODD data, we merged our code to main file.
 
 
 ***
