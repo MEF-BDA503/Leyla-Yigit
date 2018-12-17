@@ -17,6 +17,11 @@ Statistical models were introduced and Principle Components Analysis (PCA), Mult
 ***
 ## WEEK 4 (Nov 14, 2018)
 **Assignment 4 (Nov 14, 2018)**
+EGM data analysis has been done. And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been done.
+
+
+## WEEK 3 (Oct 31, 2018)
+**Assignment 3 (Oct 31, 2018)**
 
 This development consists of library(tidyverse),library(readxl) functions. By using these functions, ODD (Otomotiv Distribütörleri Derneği) data of 2016,10 was analyzed.
 
@@ -25,11 +30,6 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 [Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/FILES/odd_retail_sales_2016_10.xlsx) for EXCEL File
 
 [Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/FILES/car_data_oct_16.rds) for RDS File
-
-***
-## WEEK 3 (Oct 31, 2018)
-**Assignment 3 (Oct 31, 2018)**
-This week we reviewed ggplot & lubridate packages and as ODD homework part 2, in order to aggregate monthly ODD data as a whole, we merged our code to main file. [Assignment3](AssignmentWeek3/AssignmentWeek3.Rmd)
 
 ***
 ## Week2 (Oct 17, 2018)
