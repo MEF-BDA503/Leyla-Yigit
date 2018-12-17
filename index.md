@@ -48,7 +48,7 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 ## WEEK 1 (Oct 3, 2018)
 **Assignment 1: R Experiences**
 
-[Click here](RMarkdown-Homework-Rexamples_Assignment1.html) My R Experiences and Importance of R.
+[Click here](RMarkdown-Homework-ODDAnalysis_Assignment2.html) My R Experiences and Importance of R.
 
 [Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek1/RMarkdown-Homework.docx) for WORD file.
 
