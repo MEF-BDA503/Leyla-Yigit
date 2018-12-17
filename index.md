@@ -15,7 +15,8 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 
 ## Week2 (Oct 17, 2018)
 **Assignment 1 (Oct 16, 2018)**
- 
+In this week's assignment, we downloaded data from ODD website and read it with *readxl* function, civilized the data and made some analysis on the data. 
+
 [Click here](RMarkdown-Homework-Rexamples_Assignment1.html) My R Experiences and Importance of R.
 ***
 
