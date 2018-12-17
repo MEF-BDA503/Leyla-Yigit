@@ -1,5 +1,5 @@
 ---
-title: "RMarkdown-Homework-ODD_Sales_Cumulated"
+title: "RMarkdown-Homework-ODD_Sales_Aggregated"
 author: "Leyla Yigit"
 date: "24 Nov 2018"
 output: html_document
