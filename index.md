@@ -27,7 +27,7 @@ EGM data analysis has been done.
 ## WEEK 3 (Oct 31, 2018)
 **Assignment 3: ODD Analysis 2**
 
-And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been done. In order to aggregate monthly ODD datas, we merged our code to main file.
+And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been done. In order to aggregate monthly ODD data, we merged our code to main file.
 
 
 ***
@@ -36,17 +36,23 @@ And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been
 
 This development consists of library(tidyverse),library(readxl) functions. By using these functions, ODD (Otomotiv Distribütörleri Derneği) data of 2016,10 was analyzed.
 
-[Click here](RMarkdown-Homework-ODDAnalysis_Assignment2.html) for DATA ANALYSIS
+[Click here](AssignmentWeek2/RMarkdown-Homework-ODDAnalysis_Assignment2.html) for DATA ANALYSIS
 
-[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/FILES/odd_retail_sales_2016_10.xlsx) for EXCEL File
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek2/odd_retail_sales_2016_10.xlsx) for EXCEL File
 
-[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/FILES/car_data_oct_16.rds) for RDS File
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek2/car_data_oct_16.rds) for Rds File
+
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek2/RMarkdown-Homework-ODDAnalysis_Assignment2.Rmd) for Rmd File
 
 ***
 ## WEEK 1 (Oct 3, 2018)
 **Assignment 1: R Experiences**
 
-[Click here](RMarkdown-Homework-Rexamples_Assignment1.html) My R Experiences and Importance of R.
+[Click here](AssignmentWeek1/RMarkdown-Homework-Rexamples_Assignment1.html) My R Experiences and Importance of R.
+
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek1/RMarkdown-Homework.docx) for WORD file.
+
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek1/RMarkdown-Homework-Rexamples_Assignment1.Rmd) for Rmd File.
 
 ***
 ## Week0
@@ -54,6 +60,6 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 
 [Website on GitHub](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/edit/master/index.md) to maintain and preview the content for the website in Markdown files.
 
-[Codes on Github](https://github.com/MEF-BDA503/pj18-Leyla.Yigit)is the R class files and codes
+
 
 ***
