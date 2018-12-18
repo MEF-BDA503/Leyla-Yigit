@@ -19,13 +19,12 @@ library(dplyr)
 ## R Markdown
 
 ```{r cars}
-summary(cars)
 #get data, filter data and str_replace for ASTON MARTÄ°N"
 car_agg <- readRDS("C:\\Users\\Kafein\\Documents\\github2\\pj18-Leyla.Yigit\\AssignmentWeek3\\car_data_aggregate.rds")
 car_agg <- car_agg %>% filter(brand_name !="TOPLAM:" & !str_detect(brand_name,"ODD"))
 car_agg$brand_name <- str_replace(car_agg$brand_name,"ASTON MARTÄ°N","ASTON MARTIN")
 tbl_df(car_agg)
-glimpse(car_agg) # gives structure of data
+#glimpse(car_agg) # gives structure of data
 
 ```
 
