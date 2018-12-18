@@ -29,6 +29,12 @@ EGM data analysis has been done.
 
 And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been done. In order to aggregate monthly ODD data, we merged our code to main file.
 
+[Click here](AssignmentWeek3/RMarkdown-Homework-ODD_Sales_Aggregate.html) for DATA ANALYSIS
+
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek3/car_data_aggregate.rds) for Rds File
+
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek3/RMarkdown-Homework-ODD_Sales_Aggregate.Rmd)
+
 
 ***
 ## Week2 (Oct 17, 2018)
