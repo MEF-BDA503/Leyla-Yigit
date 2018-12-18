@@ -92,8 +92,8 @@ print(gg1)  # print the plot
 library(ggplot2)
 #make clorfull 
 #adjusting theme
-ggplot(data = car_agg, aes(x = Date, y = total_total)) +
-    geom_point(alpha = 0.1, aes(color = brand_name))
+ggplot(data = car_agg, aes(x = Date, y = total_total),size=100,height=10,width=20) +
+    geom_point(alpha = 0.3, aes(color = brand_name))
 #gg1 + facet_wrap( ~ brand_name, ncol=3)  # columns defined by 'cut'
 
 ```
