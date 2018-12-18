@@ -33,7 +33,7 @@ And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been
 
 [Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek3/car_data_aggregate.rds) for Rds File
 
-[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek3/RMarkdown-Homework-ODD_Sales_Aggregate.Rmd)
+[Click here](/AssignmentWeek3/RMarkdown-Homework-ODD_Sales_Aggregate.Rmd) for Rmd file
 
 
 ***
