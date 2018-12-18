@@ -9,8 +9,11 @@ output: html_document
 ```{r }
 
 # Load the package to the session
+library(readr)
 library(tidyverse)
-library(readxl)
+library(scales)
+library(stringr)
+library(zoo)
 
 ```
 
