@@ -48,7 +48,8 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 
 [Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek2/car_data_oct_16.rds) for Rds File
 
-[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek2/RMarkdown-Homework-ODDAnalysis_Assignment2.Rmd) for Rmd File
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek2/RMarkdown-Homework-ODDAnalysis_Assignment2.Rmd)
+ for Rmd File
 
 ***
 ## WEEK 1 (Oct 3, 2018)
