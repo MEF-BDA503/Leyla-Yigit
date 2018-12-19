@@ -29,6 +29,12 @@ EGM data analysis has been done.
 
 And further analysis for ODD (Otomotiv Distribütörleri Derneği) data has been done. In order to aggregate monthly ODD data, we merged our code to main file.
 
+[Click here](AssignmentWeek3/RMarkdown-Homework-ODD_Sales_Aggregate.html) for DATA ANALYSIS
+
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek3/car_data_aggregate.rds) for Rds File
+
+[Click here](/AssignmentWeek3/RMarkdown-Homework-ODD_Sales_Aggregate.Rmd) for Rmd file
+
 
 ***
 ## Week2 (Oct 17, 2018)
@@ -42,7 +48,7 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 
 [Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek2/car_data_oct_16.rds) for Rds File
 
-[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek2/RMarkdown-Homework-ODDAnalysis_Assignment2.Rmd) for Rmd File
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek2/RMarkdown-Homework-ODDAnalysis_Assignment2.Rmd) for Rmd file
 
 ***
 ## WEEK 1 (Oct 3, 2018)
