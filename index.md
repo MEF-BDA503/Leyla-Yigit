@@ -6,7 +6,7 @@
 ***
 ## Week7 (Dec 26, 2018)
 
-Term Project Presentation. [Project Progress Journal]https://github.com/MEF-BDA503/gpj18-r_coders)
+Term Project Presentation. [Project Progress Journal] (https://github.com/MEF-BDA503/gpj18-r_coders)
 
 ***
 ## Week6 (Dec 12, 2018)
