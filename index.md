@@ -1,7 +1,7 @@
 
-# FOCUS IMPORT AND EXPORT ISSUES WITH R PROJECT  
-# by gpj18-r_coder
-##### [Course Homepage](https://mef-bda503.github.io/)	
+# The Progress Journal of R_CODERS
+##### [Course Homepage](https://mef-bda503.github.io/)
+
 
 ***
 ## Week7 (Dec 26, 2018)
@@ -9,9 +9,9 @@
 Term Project Presentation. [Project Progress Journal]https://github.com/MEF-BDA503/gpj18-r_coders)
 
 ***
-## REFERENCES AND CITATIONS
+## Week6 (Dec 12, 2018)
 
-The references and citations of 
+We continued with Statistical models; Linear Regression, Logistic Regression, KNN, Classification and Regression Trees (CART)
 
 ***
 ## Week5 (Nov 28, 2018)
