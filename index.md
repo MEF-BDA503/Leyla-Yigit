@@ -1,5 +1,5 @@
 
-# The Progress Journal of R_CODERS
+# The Progress Journal 
 ##### [Course Homepage](https://mef-bda503.github.io/)
 
 
