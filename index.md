@@ -1,5 +1,6 @@
 
-# The Progress Journal
+# The Progress Journal of FOCUS IMPORT AND EXPORT ISSUES WITH R PROJECT  
+# by gpj18-r_coder
 ##### [Course Homepage](https://mef-bda503.github.io/)	
 
 ***
@@ -8,9 +9,9 @@
 Term Project Presentation. [Project Progress Journal]https://github.com/MEF-BDA503/gpj18-r_coders)
 
 ***
-## Week6 (Dec 12, 2018)
+## REFERENCES AND CITATIONS
 
-We continued with Statistical models; Linear Regression, Logistic Regression, KNN, Classification and Regression Trees (CART)
+The references and citations of 
 
 ***
 ## Week5 (Nov 28, 2018)
@@ -69,8 +70,8 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 [Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek1/RMarkdown-Homework-Rexamples_Assignment1.Rmd) for Rmd File.
 
 ***
-## Week0
-### Assignment 0: Welcome to GitHub Pages
+## Project Proposal 
+### 
 
 [Website on GitHub](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/edit/master/index.md) to maintain and preview the content for the website in Markdown files.
 
