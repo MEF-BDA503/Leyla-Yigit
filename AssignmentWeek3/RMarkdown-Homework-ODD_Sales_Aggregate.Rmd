@@ -175,7 +175,7 @@ ggplot(car_agg_summary_brand, aes(x = total_total, y = auto_total, color = auto_
   ggtitle("Auto trend in the total cars number") + 
   xlab("total_total") + ylab("auto_total")+
  geom_jitter(alpha = 0.3, color = "tomato")+
-    theme(plot.margin = margin(2,.8,2,.100, "cm"),
+    theme(plot.margin = margin(2,.8,2,.8, "cm"),
         plot.background = element_rect(fill = "darkgrey"))
 
 
