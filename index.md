@@ -29,7 +29,7 @@ EGM data analysis has been done.
 
 [Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek4/egm_data.rds) for Rds File
 
-[Click here](AssignmentWeek4/EGM Data Analysis.Rmd)for Rmd file
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek4/EGM_Data_Analysis.Rmd) for Rmd file
 
 ***
 ## WEEK 3 (Oct 31, 2018)
