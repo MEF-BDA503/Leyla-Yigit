@@ -99,7 +99,6 @@ ggplot(data = car_agg, aes(x = Date, y = total_total),size=100,height=10,width=2
 
 ```{r Boxplot}
 #Boxplot
-#We can use boxplots to visualize the distribution of weight within each species:
 
 ggplot(data = car_agg, aes(x = brand_name, y = total_imp)) +
     geom_boxplot()
@@ -108,7 +107,8 @@ ggplot(data = car_agg, aes(x = brand_name, y = total_imp)) +
 
 ggplot(data = car_agg, aes(x = brand_name, y = total_imp)) +
     geom_boxplot(alpha = 0) +
-    geom_jitter(alpha = 0.3, color = "tomato")
+    geom_jitter(alpha = 0.3, color = "tomato")+
+theme(axis.text.x = element_text(angle = 90)) + ylab("Total Cars İmported")
 
 ```
 
@@ -125,10 +125,9 @@ count_by_month
 p <- ggplot(count_by_month, aes(x=Date, y=n),color=Date)
 p + geom_col()+
   geom_bar(stat="identity", position=position_dodge())+
-   geom_text(aes(label=n), vjust=1.6, color="white", size=3, position = position_dodge(0.10))+
-    scale_fill_brewer(palette="Paired")+
-  labs(y = "The Sales of Each Brands", x="Years", fill="Brands") +
-  theme_minimal()
+   geom_text(aes(label=n), vjust=1.6, color="black", size=3)+
+      labs(y = "The Sales of Each Brands", x="Date", fill="Brands") +
+theme_light()
  
 #p + geom_line() + geom_point()
 #p + geom_line() + geom_point(aes(color=Date))
