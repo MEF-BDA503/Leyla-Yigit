@@ -70,11 +70,12 @@ This development consists of library(tidyverse),library(readxl) functions. By us
 [Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek1/RMarkdown-Homework-Rexamples_Assignment1.Rmd) for Rmd File.
 
 ***
-## Project Proposal 
-### 
+## Week0
+### Assignment 0: Welcome to GitHub Pages
 
 [Website on GitHub](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/edit/master/index.md) to maintain and preview the content for the website in Markdown files.
 
 
 
+***
 ***
