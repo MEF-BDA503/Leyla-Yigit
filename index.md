@@ -23,6 +23,14 @@ Statistical models were introduced and Principle Components Analysis (PCA), Mult
 
 EGM data analysis has been done. 
 
+[Click here](AssignmentWeek4/REGM__Pension_Monitoring_Center__Data_Analysis.html) for DATA ANALYSIS
+
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek4/egm_example_data.xlsx)  for EXCEL File
+
+[Click here](https://github.com/MEF-BDA503/pj18-Leyla.Yigit/blob/master/AssignmentWeek4/egm_data.rds) for Rds File
+
+[Click here](AssignmentWeek4/EGM (Pension Monitoring Center) Data Analysis.Rmd) for Rmd file
+
 ***
 ## WEEK 3 (Oct 31, 2018)
 **Assignment 3: ODD Analysis 2**
