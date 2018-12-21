@@ -1,6 +1,7 @@
 
 # The Progress Journal 
 ##### [Course Homepage](https://mef-bda503.github.io/)
+##### [View On Githup](https://github.com/MEF-BDA503/gpj18-r_coders)
 
 
 ***
